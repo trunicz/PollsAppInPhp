@@ -1,0 +1,150 @@
+body {
+  background-color: slateblue;
+  font-family: system-ui, -apple-system, "Open Sans";
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(75, 63, 154);
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+nav ul a:hover {
+  border-bottom: 3px solid white;
+}
+
+h1,
+h3 {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+.main-content {
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.main-content div {
+  border-bottom: 3px solid slateblue;
+}
+
+.main-content div a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.main-content div a:hover {
+  color: white;
+}
+
+.main-content div:hover {
+  background-color: rgb(75, 63, 154);
+  display: block;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .vote-item {
+  background-color: white;
+  overflow: hidden;
+}
+
+.bar {
+  padding: 10px;
+}
+
+.container .vote-item {
+  border: 3px solid black;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.container .vote-item input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(55, 45, 123);
+  color: white;
+  font-size: 18px;
+  border-top: 3px solid black;
+}
+.container .vote-item input[type="submit"]:hover {
+  background-color: rgb(41, 33, 92);
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+.container .form-create {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+.container .form-create input[type="text"],
+input[type="submit"],
+button {
+  padding: 12px;
+  font-size: 15px;
+}
+
+.container .form-create input[type="submit"],
+button {
+  border: none;
+  background-color: rgb(55, 45, 123);
+  color: white;
+  border-top: 3px solid black;
+}
+
+.container .form-create .wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .form-create .wrapper button {
+  border: 3px solid transparent;
+}
+.container .form-create .wrapper input[type="text"] {
+  width: 100%;
+}
+
+.container .form-create input[type="submit"]:hover,
+button:hover {
+  background-color: rgb(41, 33, 92);
+}

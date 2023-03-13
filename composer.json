@@ -1,0 +1,15 @@
+{
+    "name": "trnx/polls",
+    "autoload": {
+        "psr-4": {
+            "Trnx\\Polls\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Trunicz",
+            "email": "romelin2001@hotmail.com"
+        }
+    ],
+    "require": {}
+}
